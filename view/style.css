@@ -1,0 +1,24 @@
+:root {
+--dark: #16191c;
+--dark-x: #1e2126;
+--ligth: #ffffff;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    color: var(--ligth);
+}
+
+.bg-dark{background-color: var(--dark) !important;
+}
+.bg-dark-x{background-color: var(--dark-x) ;}
+.form-control{
+    min-width: 3.125rem;
+    line-height: initial;
+}
+
+.img-1{
+    background-image: url('img-1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
