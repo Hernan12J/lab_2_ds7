@@ -44,15 +44,15 @@
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4">
                     <h1 class="font-weight-bold mb-4">Bienvenido a mi login</h1>
-                    <form>
+                    <form method="POST" action="../php/login.php">
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
-                          <input Required type="email" class="form-control bg-dark-x border-0" placeholder="Ingresa tu Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input Required type="email" class="form-control bg-dark-x border-0" placeholder="Ingresa tu Email" id="email" name="email" aria-describedby="emailHelp">
                           
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
-                          <input Required type="password" class="form-control bg-dark-x border-0" placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
+                          <input Required type="password" class="form-control bg-dark-x border-0" placeholder="Ingresa tu contraseña" id="password" name="password">
                           <a href="#" id="contra_ayuda" class="form-text">¿Has olvidalo la contraseña?</a>
                         </div>
                         <div class="mb-3 form-check">

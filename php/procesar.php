@@ -18,7 +18,7 @@ $sql = "INSERT INTO usuario(nombre,apellido,email,pass) VALUES ('$nombre', '$ape
 mysqli_query($conexion, $sql);
 
 mysqli_close($conexion);
-header('refresh: 5;URL=http://localhost/TrabajoEnClase_HH_1.1/');
+header('refresh: 5;URL=http://localhost/lab_2_ds7');
 //$go_back = htmlspecialchars($_SERVER['HTTP_REFERER']);
 //echo "<a href='$go_back'>Go Back</a>";
 ?>
